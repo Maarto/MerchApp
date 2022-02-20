@@ -21,9 +21,10 @@ function HomePage() {
 
             <div className="Buttons">
 
-                <button className='buttonHome' onClick={() => Navigation('/test')}>INICIO</button>
-                <button className='buttonHome' onClick={() => Navigation('/test')}>CONTACTO</button>
-                <button className='buttonHome' onClick={() => Navigation('/test')}>CATALOGO</button>
+                <button className='buttonHome' onClick={() => Navigation('/home')}>HOME</button>
+                <button className='buttonHome' onClick={() => Navigation('/test')}>SERVICES</button>
+                <button className='buttonHome' onClick={() => Navigation('/test')}>ABOUT US</button>
+                <button className='buttonHome' onClick={() => Navigation('/test')}>PROJECTS</button>
                 <button className='buttonHome' onClick={() => Navigation('/test')}>LOGIN</button>
             </div>
         </div>
