@@ -1,12 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react'
+import {Routes, Route} from 'react-router-dom'
+import {HomePage} from './pages/home';
+import { PageNotFound } from './pages/notFound';
 
 function App() {
   return (
-    <div>
-      <h1>Testing app</h1>
-    </div>
+    <Routes>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='*' element={<PageNotFound/>}/>
+    </Routes>
   );
 }
 

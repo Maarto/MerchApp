@@ -1,0 +1,58 @@
+* {
+    background-color: #292929;
+}
+
+html, body {
+    margin: 0;
+}
+
+.container{
+
+    height: 100vh;
+
+    /* margin-top: 28vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vh;
+    height: 50vh; */
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+
+.icon {
+    color: white;
+    width: 10vh;
+    height: 10vh;
+    padding-left: 58px;
+}
+
+h1 {
+    background-color: #393939;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(187, 187, 187);
+}
+
+h1:hover {
+    background-color: #9dd3ff4f;
+}
+
+p {
+    color: rgb(187, 187, 187);
+    position: relative;
+    top: 0px;
+    right: 116px;
+    width: 460px;
+    text-align: center;
+}
