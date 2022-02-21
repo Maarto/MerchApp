@@ -1,0 +1,68 @@
+.generalContain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registerText {
+    font-size: 20px;
+    text-align: center;
+}
+
+.InfoText {
+    text-align: center;
+}
+
+.registerText , .InfoText {
+    color: var(--blanquito);
+    background: transparent;
+}
+
+.InfoText a {
+    color: #6694ff;
+}
+
+.registerForm {
+    background: #333846;
+    width: 350px;
+    height: auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.Inputs {
+    background: transparent;
+}
+
+.Inputs  input, .Inputs button{
+    background-color: #4E4F51;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    text-align: center;
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.Icons {
+    position: absolute;
+    color: var(--blanquito);
+    background: transparent;
+    margin: 13px 0px;
+    border-right: 1px solid grey;
+    width: 40px;
+}
+
+.Inputs button {
+    background-color: #0364f5;
+    border: 1px solid #0064fa;
+}
+
+.Inputs button:hover {
+    background-color: #4088F6;
+    transition: all 250ms ease;
+}
