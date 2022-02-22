@@ -21,7 +21,13 @@
 }
 
 .InfoText a {
-    color: #6694ff;
+    color: #0364f5;
+}
+
+.InfoText a:hover {
+    transform: scale(1.2);
+    border-bottom: 1px solid white;
+    transition: all 1s ease-in-out;
 }
 
 .registerForm {
@@ -41,11 +47,19 @@
     border-radius: 10px;
     color: white;
     border: none;
-    text-align: center;
-    margin: 20px 0;
+    /* text-align: center; */
+    margin: 20px 0px;
     display: block;
     width: 100%;
     padding: 10px;
+}
+
+.Inputs input {
+    padding: 10px 10px 10px 50px;
+}
+
+.Inputs input:invalid {
+    border: red;
 }
 
 .Icons {

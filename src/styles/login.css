@@ -1,0 +1,52 @@
+.loginForm {
+    background-color: #333846;
+    width: 350px;
+    height: auto;
+    padding: 40px 40px 20px 40px;
+    border-radius: 15px;
+}
+
+.loginForm h1, .loginForm p {
+    text-align: center;
+}
+
+.loginForm h1 {
+    font-size: 20px;
+    padding: 0 0 13px 0;
+    /* margin: 15px 20 0 50px; */
+}
+.loginForm a {
+    color: #0364f5;
+}
+
+.loginForm a:hover {
+    transform: scale(1.2);
+    border-bottom: 1px solid white;
+    transition: all 1s ease-in-out;
+}
+
+.titleInfo, .textInfo {
+    color: white;
+    background: transparent;
+}
+
+.loginForm input, .loginForm button {
+    background: transparent;
+}
+
+.LogoIcon {
+    color: white;
+    background: transparent;
+    font-size: 50px;
+    position: relative;
+    margin: 0 0 15px 105px;
+}
+
+.LogoIcon:hover {
+    color: aquamarine;
+    transition: all 1s ease-in-out;
+}
+
+.Inputs input:invalid {
+    border: red;
+}
